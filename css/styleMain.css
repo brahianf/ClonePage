@@ -142,3 +142,36 @@ main .main-buttons button:hover {
     color: #1b1b1b;
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #e9e9e9;
+    border-top: 1px solid #c5c5c5;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin:10px;
+    color:#5f6368;
+}
